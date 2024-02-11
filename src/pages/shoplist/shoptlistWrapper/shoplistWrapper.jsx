@@ -1,15 +1,17 @@
 import Sidebar from '../sidebar/sidebar'
 import MainMenu from '../mainMenu/mainMenu'
+import Navbar from '../../../components/navbar/navbar'
 import './wrapper_styles.css'
 
 
-const Wrapper = () => {
+const ShoplistWrapper = () => {
   return (
     <div className='wrapper'>
+       <Navbar/>
         <Sidebar />
         <MainMenu />
     </div>
   )
 }
 
-export default Wrapper
+export default ShoplistWrapper

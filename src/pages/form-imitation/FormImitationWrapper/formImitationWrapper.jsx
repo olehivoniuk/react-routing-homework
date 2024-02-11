@@ -1,12 +1,14 @@
 import FormWrapper from '../formWrapper/formWrapper';
+import Navbar from '../../../components/navbar/navbar';
 import './ultimateWrapper_styles.css'
 
-const UltimateWrapper = () => {
+const FormImitationWrapper = () => {
   return (
     <div className='wrapper'>
+      <Navbar />
       <FormWrapper />
     </div>
   )
 }
 
-export default UltimateWrapper
+export default FormImitationWrapper

@@ -4,7 +4,7 @@ import Footer from '../footer/footer'
 import './wrapper_styles.css'
 
 
-const Wrapper = () => {
+const ButtonPage = () => {
   return (
     <div className = 'custom-border square'>
       <Header />
@@ -14,4 +14,4 @@ const Wrapper = () => {
   )
 }
 
-export default Wrapper
+export default ButtonPage
