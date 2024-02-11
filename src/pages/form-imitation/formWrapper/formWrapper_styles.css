@@ -1,0 +1,19 @@
+.form-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column;
+    height: 40vw; /* Set the height as a percentage of viewport width */
+    width: 40vw; /* Set the width as a percentage of viewport width */
+    background-color: #CAD593; /* Set background color for FormBorder */
+    border: 1px solid black;
+    margin: auto; /* Center the .form-border within the wrapper */
+    padding: 0px;
+}
+
+@media (max-width: 600px) {
+    .form-wrapper {
+        height: 60vw; /* Adjust height for small screens */
+        width: 80vw; /* Adjust width for small screens */
+    }
+}

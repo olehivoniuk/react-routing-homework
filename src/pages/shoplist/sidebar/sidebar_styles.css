@@ -1,0 +1,8 @@
+.sidebar {
+    flex: 2; /* Take 2/10th of the available space */
+    background-color: #808D8E;  /* Example background color */
+    text-align: center;
+    line-height: 2.0;
+    color: whitesmoke; 
+    font-size: 24px;
+  }

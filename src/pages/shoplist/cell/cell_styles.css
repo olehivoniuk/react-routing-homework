@@ -1,0 +1,13 @@
+.cell {
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Align items along the vertical axis */
+    justify-content: center; /* Align items along the horizontal axis */
+    width: calc(100% / 7); /* Each cell takes 1/7th of the available width */
+    background-color: #947EB0; /* Example background color */
+    color: white; 
+    border: 1px solid #ccc; /* Add border for visual separation */
+    box-sizing: border-box; /* Include border in element's total width and height */
+    margin-left: 5vh;
+    margin-top: 1vh;
+    height: 60px;
+  }

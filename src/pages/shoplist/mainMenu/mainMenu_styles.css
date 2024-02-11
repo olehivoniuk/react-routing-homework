@@ -1,0 +1,9 @@
+.main-menu {
+    display: flex;
+  flex: 8; /* Take the remaining 9/10th of the available space */
+  background-color: #ffffff; /* Example background color */
+  display: flex;
+  flex-wrap: wrap; /* Allow cells to wrap to the next line */
+  background-color: #766C7F;
+  border: 1px solid #ccc;
+}

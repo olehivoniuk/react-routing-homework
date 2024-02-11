@@ -1,0 +1,17 @@
+
+.button1 {
+    margin: 5vh;
+    height: 15vh; 
+    width: 15vh;
+    box-sizing: content-box; /* or box-sizing: border-box; */
+    background-color: #59FFA0;
+}
+
+.button2 {
+  margin: 5vh;
+  height: 15vh; 
+  width: 15vh;
+  box-sizing: content-box; /* or box-sizing: border-box; */
+  background-color: gold;
+  border-radius: 5px;
+}

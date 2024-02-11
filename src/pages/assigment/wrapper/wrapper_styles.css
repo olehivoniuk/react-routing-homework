@@ -1,0 +1,12 @@
+.custom-border {
+    border: 5px solid #333;
+  }
+
+
+    /* Styles for .square container */
+.square {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 10vh;
+      }

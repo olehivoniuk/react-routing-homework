@@ -1,0 +1,8 @@
+.wrapper {
+    position: fixed; /* Position the element relative to the viewport */
+    top: 0; /* Align the top edge of the element with the top of the viewport */
+    left: 0; /* Align the left edge of the element with the left of the viewport */
+    width: 100%; /* Make the width of the element 100% of the viewport width */
+    height: 100%; /* Make the height of the element 100% of the viewport height */
+    display: flex;
+}

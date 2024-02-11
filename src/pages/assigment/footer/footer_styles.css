@@ -1,0 +1,7 @@
+ /* Styles for .footing */
+ .footing {
+    flex: 0 0 10%;
+    border-top: 5px solid #333;
+    margin-top: auto; /* Push the footer to the bottom of the .square container */
+    background-color: brown;
+  }
