@@ -7,8 +7,8 @@ import './wrapper_styles.css'
 const ShoplistWrapper = () => {
   return (
     <div className='wrapper'>
-       <Navbar/>
-        <Sidebar />
+      
+        <Sidebar  />
         <MainMenu />
     </div>
   )
