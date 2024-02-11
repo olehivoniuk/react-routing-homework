@@ -1,0 +1,10 @@
+.catalog-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 8fr; 
+    grid-template-rows: auto; 
+    height: 100vh; 
+  } 
+
+  .catalog-wrapper > * {
+    border: 1px solid black;
+}

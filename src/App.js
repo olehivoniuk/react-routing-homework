@@ -4,6 +4,8 @@ import ShoplistWrapper from './pages/shoplist/shoptlistWrapper/shoplistWrapper';
 import ButtonPage from './pages/assigment/buttonPage/buttonPage';
 import Navbar from './components/navbar/navbar';
 import Home from './components/home/home';
+import CatalogWrapper from './pages/catalog/catalogWrapper/catalogWrapper';
+
 function App() {
   return (
     <Router>
@@ -15,6 +17,7 @@ function App() {
             <Route path='/pages/ultimateWrapper' element={<FormImitationWrapper />} />
             <Route path='/pages/assigment/buttonPage' element={<ButtonPage />} />
             <Route path='/pages/wrapper/shoplistWrapper' element={<ShoplistWrapper />} />
+            <Route path='/pages/catalog/catalogWrapper' element={<CatalogWrapper />} />
           </Routes>
         </div>
       </div>

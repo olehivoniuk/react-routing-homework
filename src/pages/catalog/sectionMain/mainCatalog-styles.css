@@ -1,0 +1,11 @@
+.section-main {
+    border: 1px solid black;
+    display: flex;
+  flex-wrap: wrap;
+}
+
+.section-main img {
+    width: 50%; /* Each image takes up 50% of the container's width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 10vh; /* Add some padding around each image */
+  }
