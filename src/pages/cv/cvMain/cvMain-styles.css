@@ -1,0 +1,15 @@
+.cv-main {
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the cross axis (top) */
+    border: 1px solid black;
+  }
+
+  .cv-main__text {
+    flex: 1; /* Take up remaining space */
+    padding: 10vh;
+  }
+
+  .cv-main__picture {
+      padding: 10vh;
+      height: 50vh;
+  }
