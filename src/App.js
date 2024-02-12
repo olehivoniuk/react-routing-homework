@@ -5,7 +5,7 @@ import ButtonPage from './pages/assigment/buttonPage/buttonPage';
 import Navbar from './components/navbar/navbar';
 import Home from './components/home/home';
 import CatalogWrapper from './pages/catalog/catalogWrapper/catalogWrapper';
-
+import NovelWrapper from './pages/novel/novelWrapper/novelWrapper';
 function App() {
   return (
     <Router>
@@ -18,6 +18,7 @@ function App() {
             <Route path='/pages/assigment/buttonPage' element={<ButtonPage />} />
             <Route path='/pages/wrapper/shoplistWrapper' element={<ShoplistWrapper />} />
             <Route path='/pages/catalog/catalogWrapper' element={<CatalogWrapper />} />
+            <Route path='/pages/novel/novelWrapper' element={<NovelWrapper />} />
           </Routes>
         </div>
       </div>

@@ -1,7 +1,7 @@
 .section-main {
-    border: 1px solid black;
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
+  border: 1px solid black;
 }
 
 .section-main img {
