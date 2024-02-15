@@ -1,0 +1,38 @@
+.button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+.button-small {
+    padding: 4px 8px;
+    max-width: 15vh;
+}
+
+.button-medium {
+    padding: 8px 16px;
+    max-width: 20vh;
+
+}
+
+.button-large {
+    padding: 12px 24px;
+    max-width: 25vh;
+}
+
+.button-regular {
+    background-color: #007bff; 
+    color: #fff;
+}
+
+.button-danger {
+    background-color: #dc3545; 
+    color: #fff;
+}
+
+.button-success {
+    background-color: #28a745; 
+    color: #fff;
+}
